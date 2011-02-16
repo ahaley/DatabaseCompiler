@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<DBConversionRule source_table="tblContacts" dest_table="Account">
+  <FieldRename>
+    <Field source="tblContactEmpID">emp_id</Field>
+    <Field source="tblContactLoginID">username</Field>
+    <Field source="tblContactLoginPW">password</Field>
+    <Field source="tblContactLoginAdminLevel">admin_level</Field>
+    <Field source="tblContactNameFirst">firstname</Field>
+    <Field source="tblContactNameLast">lastname</Field>
+    <Field source="tblContactNumber">phone_number</Field>
+    <Field source="tblContactExtension">extension</Field>
+    <Field source="tblContactCell">mobile_number</Field>
+    <Field source="tblContactFax">fax_number</Field>
+    <Field source="tblContactEmail">email</Field>
+    <Field source="tblComments">comments</Field>
+    <Field source="tblNotes">notes</Field>
+    <Field source="tblDeleted">deleted</Field>
+    <Field source="tblDeletedBy">deleted_by</Field>
+    <Field source="tblSysDate">sys_date</Field>
+    <Field source="tblUserID">user_id</Field>
+  </FieldRename>
+  <ExtractColumn>
+    <Field source="tblContactCat">Title</Field>
+    <Field source="tblContactOffice">Office</Field>
+    <Field source="tblDepartment">Department</Field>
+  </ExtractColumn>
+  <ExtractAssociation>
+    <ExtractedTable name="Responsibility">
+      <Field>tblResponsible1</Field>
+      <Field>tblResponsible2</Field>
+      <Field>tblResponsible3</Field>
+      <Field>tblResponsible4</Field>
+      <Field>tblResponsible5</Field>
+      <Field>tblResponsible6</Field>
+      <Field>tblResponsible7</Field>
+      <Field>tblResponsible8</Field>
+      <Field>tblResponsible9</Field>
+      <Field>tblResponsible10</Field>
+    </ExtractedTable>
+  </ExtractAssociation>
+</DBConversionRule>

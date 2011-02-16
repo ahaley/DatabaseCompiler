@@ -1,0 +1,20 @@
+INSERT INTO tblContacts (
+	tblContactEmpID, tblContactLoginID, tblContactLoginPW, tblContactLoginAdminLevel,
+	tblContactNameFirst, tblContactNameLast, tblContactNameDisplay, tblContactName,
+	tblContactNickName, tblContactNumber, tblContactExtension, tblContactCell,
+	tblContactFax, tblContactEmail, tblContactCat, tblContactOffice, tblWorkstationIPAddress,
+	tblComputerName, tblAssetID, tblDepartment, tblComments, tblResponsible1,
+	tblResponsible2, tblResposible3, tblResponsible4, tblResponsible5, tblResponsible6,
+	tblResponsible7, tblResponsible8, tblResponsible9, tblResponsible10, tblNotes,
+	tblDeleted, tblDeletedBy, tblUserID, tblSysDate)
+VALUES(
+	1, "tblContactLoginID", "tblContactLoginPW", "tblContactLoginAdminLevel",
+	"tblContactNameFirst", "tblContactNameLast", "tblContactNameDisplay", "tblContactName",
+	"tblContactNickName", "tblContactNumber", "tblContactExtension", "tblContactCell",
+	tblContactFax, tblContactEmail, tblContactCat, tblContactOffice, tblWorkstationIPAddress,
+	tblComputerName, tblAssetID, tblDepartment, tblComments, tblResponsible1,
+	tblResponsible2, tblResposible3, tblResponsible4, tblResponsible5, tblResponsible6,
+	tblResponsible7, tblResponsible8, tblResponsible9, tblResponsible10, tblNotes,
+	tblDeleted, tblDeletedBy, tblUserID, tblSysDate
+);
+	
